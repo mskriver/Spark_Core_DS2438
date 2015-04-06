@@ -1,0 +1,10 @@
+{
+  "name": "spark-Dallas-DS2438",
+  "author": "Morten Skriver <morten@skriver.dk>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A Spark Core ported, but otherwise untouched libary for controlling Dallas DS2438 Sensor",
+  "dependencies":{
+    "OneWire":  "*"
+  }
+}
