@@ -17,8 +17,8 @@ Original repository by Joe Bechter: [arduino-onewire-DS2438](https://github.com/
 ### Example code
 **!! _Make sure to include the libraries !!_**
 
-     	// define the 1-Wire address of the DS2438 battery monitor here (lsb first)
-        uint8_t DS2438_address[] = { 0x26, 0x45, 0xe6, 0xf7, 0x00, 0x00, 0x00, 0x4e };
+       // define the 1-Wire address of the DS2438 battery monitor here (lsb first)
+       uint8_t DS2438_address[] = { 0x26, 0x45, 0xe6, 0xf7, 0x00, 0x00, 0x00, 0x4e };
 
 	// Init Dallas on pin digital pin 3
 	OneWire ow(D3);
