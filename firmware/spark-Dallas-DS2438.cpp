@@ -16,7 +16,7 @@
  *
  */
 
-#include "DS2438.h"
+#include "spark-Dallas-DS2438.h"
 
 DS2438::DS2438(OneWire *ow, uint8_t *address) {
     _ow = ow;
