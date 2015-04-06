@@ -16,8 +16,8 @@
  *
  */
 
-#ifndef DS2438_h
-#define DS2438_h
+#ifndef spark-Dallas-DS2438_h
+#define spark-Dallas-DS2438_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
     #include <OneWire.h>
